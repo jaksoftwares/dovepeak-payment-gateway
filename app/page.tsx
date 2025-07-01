@@ -8,7 +8,6 @@ import PaymentProcessor from './components/PaymentProcessor'
 import TransactionHistory from './components/TransactionHistory'
 import PaymentMethods from './components/PaymentMethods'
 import Integration from './components/Integration'
-import Analytics from './components/Analytics'
 import Settings from './components/Settings'
 import Documentation from './components/Documentation'
 
@@ -30,8 +29,7 @@ export default function Home() {
         return <PaymentMethods />
       case 'integration':
         return <Integration />
-      case 'analytics':
-        return <Analytics />
+
       case 'settings':
         return <Settings />
       case 'docs':
